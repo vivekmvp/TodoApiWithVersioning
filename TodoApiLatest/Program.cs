@@ -61,8 +61,15 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwaggerWithVersioning();
+    //*******************
+    //Put here so that swagger will be available in development
+    //And it's unavailable when you deployed to Azure
+    //app.UseSwaggerWithVersioning();
+    //*******************
 }
+
+//Putting this here for testing purpose only
+app.UseSwaggerWithVersioning();
 
 app.UseHttpsRedirection();
 
