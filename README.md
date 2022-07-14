@@ -1,4 +1,4 @@
-# TodoApi with Versioning and Swagger
+# TodoApi with Versioning and Swagger (.Net Core 6.0 Implementation)
 TodoApi with Versioning and Swagger Implementation
 
 ## Example of Deprecated version
